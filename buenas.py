@@ -16,12 +16,12 @@ for i in range(cantidad):
         continue
     
     conocimiento=input("¿tiene el usuario conocimiento basico de computo")
-    aprob()
+    resultado = aprob(edad, conocimiento)
     
     dicc={"nombre":nombre,
           "edad":edad,
-          "aprobado":aprob}
+          "aprobado":resultado}
     lista.append(dicc)
-print(f"el historial es el siguiente")
+print(f"\n, el historial es el siguiente")
 for i in lista:
    print(f"--{i["nombre"]}---{i["edad"]}--{i["aprobado"]}")
