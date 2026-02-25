@@ -1,7 +1,7 @@
 cantidad=int(input("ingresar la cantidad de personas que se desean registrar"))
 lista=[]
 def aprob():
-    if edad>=15 and conocimiento.lower=="si":
+    if edad>=15 and conocimiento.lower()=="si":
      print("puede participar en el taller")
     else:
        print("no puede participar")
@@ -24,4 +24,4 @@ for i in range(cantidad):
     lista.append(dicc)
 print(f"el historial es el siguiente")
 for i in lista:
-   print(f"{i["nombre"]}---{i["edad"]}--{i["aprobado"]}")
+   print(f"--{i["nombre"]}---{i["edad"]}--{i["aprobado"]}")
