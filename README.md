@@ -1,1 +1,2 @@
-calculadora
+# Registro de participantes
+### el proyecto 
